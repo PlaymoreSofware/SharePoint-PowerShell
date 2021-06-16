@@ -16,7 +16,7 @@ function Inventory-SPFarm {
 		[switch]$InventoryFarmSolutions,
 		[switch]$InventoryFarmFeatures,
 		[switch]$InventoryWebTemplates,
-        [switch]$InventoryWebApplications,
+		[switch]$InventoryWebApplications,
 		[switch]$InventoryContentDatabases,
 		[switch]$InventorySiteCollections,
 		[switch]$InventorySiteCollectionAdmins,
@@ -84,12 +84,12 @@ function Inventory-SPFarm {
                 -InventorySiteCollectionFeatures:$InventorySiteCollectionFeatures `
                 -InventoryWebPermissions:$InventoryWebPermissions `
                 -InventoryWebs:$InventoryWebs `
-				-InventoryWebWorkflowAssociations:$InventoryWebWorkflowAssociations `
-				-InventorySiteContentTypes:$InventorySiteContentTypes `
-                -InventoryLists:$InventoryLists `
-				-InventoryListWorkflowAssociations:$InventoryListWorkflowAssociations `
-				-InventoryListContentTypes:$InventoryListContentTypes `
-				-InventoryContentTypeWorkflowAssociations:$InventoryContentTypeWorkflowAssociations `
+		-InventoryWebWorkflowAssociations:$InventoryWebWorkflowAssociations `
+		-InventorySiteContentTypes:$InventorySiteContentTypes `
+		-InventoryLists:$InventoryLists `
+		-InventoryListWorkflowAssociations:$InventoryListWorkflowAssociations `
+		-InventoryListContentTypes:$InventoryListContentTypes `
+		-InventoryContentTypeWorkflowAssociations:$InventoryContentTypeWorkflowAssociations `
                 -InventoryListFields:$InventoryListFields `
                 -InventoryListViews:$InventoryListViews `
                 -InventoryWebParts:$InventoryWebParts `
